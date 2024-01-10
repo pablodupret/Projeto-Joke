@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+
+    <style>
+
+        body {
+            background-color: black;
+            color: rgb(254, 254, 254);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+    </style>
+</head>
+<body>
+    <h1> Teste de Trairagem </h1>
+
+    <form action="resposta.php" method="get"> 
+
+    <fieldset> 
+        <legend> Pergunta 1 </legend>
+
+             <p> O Auditor com FG ou DAS deve entregar o Cargo de FG ou DAS, de acordo com o Caderno de mobilização ? </p>
+             
+            <input type="radio" name="PERGUNTA1" id="isim"> <label for="isim">SIM</label> <br>
+            <input type="radio" name="PERGUNTA1" id="inao"> <label for="inao">NÃO</label> 
+      
+    </fieldset>
+
+    <fieldset> 
+        <legend> Pergunta 2 </legend>
+
+             <p> O Auditor que com função gratificada que não entrega sua função: </p>
+             
+            <input type="radio" name="PERGUNTA2" id="icolega"> <label for="icolega">Colega </label> <br>
+            <input type="radio" name="PERGUNTA2" id="iamigo"> <label for="iamigo">Amigo</label> <br>
+            <input type="radio" name="PERGUNTA2" id="itraidor"> <label for="itraidor">Traidor</label> 
+        
+    </fieldset>
+
+        <br> 
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Limpar">
+
+    </form>
+
+    <br>
+
+    
+
+
+    
+</body>
+</html>
